@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Sanskriti❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Step 1: Turn on lights button -->
+    <button id="lights-btn" class="btn">Turn On the Lights💡</button>
+    
+
+    <!-- Step 2: First question -->
+    <div id="question" class="hidden">
+      <p>Do you want to see my surprise? 🎁</p>
+      <button id="yes-btn" class="btn">Yes💖</button>
+      <button id="no-btn" class="btn">No is not an option😢</button>
+    </div>
+
+    <!-- Step 2.5: Promise to smile -->
+    <div id="promise-question" class="hidden">
+      <p>Do you promise to smile while watching this? 😊</p>
+      <button id="promise-yes-btn" class="btn">Yes, I promise! 💛</button>
+      <button id="promise-no-btn" class="btn">No(paap padega)😢</button>
+    </div>
+
+    <!-- Step 2.75: Best friend question -->
+    <div id="bestfriend-question" class="hidden">
+      <p>Will you always be my best friend? 💕</p>
+      <button id="bestfriend-yes-btn" class="btn">Always💖</button>
+      <button id="bestfriend-no-btn" class="btn">Never😜</button>
+    </div>
+
+    <!-- Step 3: Are you ready question -->
+    <div id="ready-question" class="hidden">
+      <p>Are you ready for some cuteness that will melt you? 😍</p>
+      <button id="ready-yes-btn" class="btn">Yes I am! 💛</button>
+      <button id="ready-no-btn" class="btn">Nope😜</button>
+    </div>
+
+    <!-- Step 4: Decorated Scene -->
+    <div id="decor" class="hidden">
+      <div class="scene">
+        <div class="banner-image">
+          <img src="banner.jpg" alt="Happy Birthday Banner" />
+        </div>
+      </div>
+      <canvas id="decor-confetti"></canvas>
+      <button id="surprise-btn" class="btn">Click for Surprise💛</button>
+      <audio id="music" src="happy_birthday.mp3"></audio>
+    </div>
+
+    <!-- Step 5: Surprise Section -->
+    <div id="surprise" class="hidden">
+      <div class="surprise-background">
+        <div class="image-box">
+          <img src="image.jpeg" alt="Birthday Image" />
+        </div>
+        <div class="message" id="birthdayMessage">
+          <p>💛Happy Birthday SANSKRITI!!! Have a blast on your day. Ilysm and I miss you so much. I'm so grateful for you — for all the laughter, late-night talks, random adventures, and the way you always know how to make everything better. You've been my constant through every high and low, and I honestly cannot imagine my life without you in it. 💕 💛</p>
+        </div>
+      </div>
+      <canvas id="confetti-canvas"></canvas>
+      <div id="flying-balloons"></div>
+    </div>
+    <!-- Step 6: Thank You Section -->
+     
+
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
